@@ -195,7 +195,7 @@ class WanRotaryPosEmbed(nn.Module):
                 theta,
                 use_real=True,
                 repeat_interleave_real=True,
-            
+            )   
             freqs_cos.append(freq_cos)  
             freqs_sin.append(freq_sin)
 
